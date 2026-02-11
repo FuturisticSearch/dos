@@ -16,7 +16,7 @@ $(document).ready(function () {
 				
 			} else if(e.which == 8) { //backspace
 				//str = str.substring(0, str.length - 1);
-				
+				window.location.replace("https://matrix-hack.pages.dev/");
 				$('#typing').html($('#typing').html().substring(0, $('#typing').html().length - 1)); // cut off last character
 				
 				
